@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bland Fried Rice - Authentic Flavors</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Bland Fried Rice - Authentic Indonesian Fried Rice Experience">
+    <meta name="keywords" content="fried rice, Indonesian cuisine, restaurant, traditional food">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo-inv.png" alt="Bland Fried Rice Logo" width="50" height="50" class="me-2">
+                Bland Fried Rice
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-light position-relative overflow-hidden" id="hero">
+        <div class="hero-overlay position-absolute w-100 h-100"></div>
+        <div class="container position-relative z-1">
+            <div class="row vh-100 align-items-center justify-content-center">
+                <div class="col-md-10 col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="display-3 fw-bold mb-3 hero-title" aria-label="Bland Fried Rice Welcome">
+                            Welcome to Bland Fried Rice
+                        </h1>
+                        <p class="lead mb-4 hero-subtitle" aria-describedby="hero-subtitle">
+                            Simplicity at Its Best – Discover the Taste of Tradition
+                        </p>
+                        <div class="hero-cta d-flex flex-column flex-sm-row justify-content-center gap-3">
+                            <a href="#menu" class="btn btn-warning btn-lg d-inline-flex align-items-center" aria-label="Explore Menu">
+                                <i class="fas fa-utensils me-2"></i> Explore Menu
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg d-inline-flex align-items-center" aria-label="Contact Us">
+                                <i class="fas fa-phone me-2"></i> Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5 bg-light" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="position-relative">
+                        <img src="images/chef.png" alt="Our Chef" class="img-fluid rounded shadow-lg">
+                        <div class="chef-badge position-absolute bottom-0 start-0 m-3 bg-warning text-dark p-2 rounded">
+                            <h5 class="mb-0">Chef Oja Ganteng</h5>
+                            <small>Founder & Head Chef</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h2 class="display-6 mb-4 text-dark">Our Culinary Journey</h2>
+                        <p class="lead text-muted mb-4">
+                            At Bland Fried Rice, we believe in the power of simplicity and authentic flavors. 
+                            Our story begins with a passion for traditional Indonesian cuisine and a commitment 
+                            to bringing the most genuine fried rice experience to your table.
+                        </p>
+
+                        <div class="feature-boxes-wrapper">
+                            <div class="feature-box-container">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon">
+                                        <i class="fas fa-mortar-pestle"></i>
+                                    </div>
+                                    <div class="feature-box-text">
+                                        <h5>Traditional Recipes</h5>
+                                        <p>Handed down through generations</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-box-container">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon">
+                                        <i class="fas fa-leaf"></i>
+                                    </div>
+                                    <div class="feature-box-text">
+                                        <h5>Fresh Ingredients</h5>
+                                        <p>Locally sourced, premium quality</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-box-container">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon">
+                                        <i class="fas fa-fire"></i>
+                                    </div>
+                                    <div class="feature-box-text">
+                                        <h5>Authentic Cooking</h5>
+                                        <p>Traditional wok techniques</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-box-container">
+                                <div class="feature-box">
+                                    <div class="feature-box-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="feature-box-text">
+                                        <h5>Cultural Heritage</h5>
+                                        <p>Celebrating Indonesian cuisine</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="mt-4">
+                            <a href="#menu" class="btn btn-warning btn-lg">
+                                Explore Our Menu <i class="fas fa-chevron-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Delicious Menu</h2>
+            <div class="menu-carousel-container">
+                <div class="menu-carousel">
+                    <div class="menu-card">
+                        <img src="https://asset.kompas.com/crops/U6YxhTLF-vrjgM8PN3RYTHlIxfM=/84x60:882x592/1200x800/data/photo/2021/11/17/61949959e07d3.jpg" alt="Bland Fried Rice Classic">
+                        <div class="menu-card-content">
+                            <h3>Classic Fried Rice</h3>
+                            <p>Traditional recipe with signature blend of spices</p>
+                            <div class="menu-card-footer">
+                                <span class="price">$8.99</span>
+                                <button class="btn btn-warning">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://cdn1-production-images-kly.akamaized.net/285eQpDwdxx1xhh5RFb38KtfhBY=/0x148:1920x1230/1280x720/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3093328/original/069244600_1585909700-fried-2509089_1920.jpg" alt="Spicy Chicken Fried Rice">
+                        <div class="menu-card-content">
+                            <h3>Spicy Chicken Fried Rice</h3>
+                            <p>Packed with tender chicken and spicy sauce</p>
+                            <div class="menu-card-footer">
+                                <span class="price">$9.99</span>
+                                <button class="btn btn-warning">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/ae6d7be8ee924ba32b6175d12b7cfdac/Derivates/0f2747c199915780ff5efcc9fc98ffbc129d8ca4.jpg" alt="Vegetarian Fried Rice">
+                        <div class="menu-card-content">
+                            <h3>Vegetarian Delight</h3>
+                            <p>Fresh vegetables and tofu with special seasoning</p>
+                            <div class="menu-card-footer">
+                                <span class="price">$7.99</span>
+                                <button class="btn btn-warning">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/ae6d7be8ee924ba32b6175d12b7cfdac/Derivates/0f2747c199915780ff5efcc9fc98ffbc129d8ca4.jpg" alt="Seafood Fried Rice">
+                        <div class="menu-card-content">
+                            <h3>Seafood Fusion</h3>
+                            <p>Shrimp and mixed seafood with exotic spices</p>
+                            <div class="menu-card-footer">
+                                <span class="price">$12.99</span>
+                                <button class="btn btn-warning">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/ae6d7be8ee924ba32b6175d12b7cfdac/Derivates/0f2747c199915780ff5efcc9fc98ffbc129d8ca4.jpg" alt="Premium Wagyu Fried Rice">
+                        <div class="menu-card-content">
+                            <h3>Premium Wagyu Rice</h3>
+                            <p>Luxurious Wagyu beef with truffle-infused rice</p>
+                            <div class="menu-card-footer">
+                                <span class="price">$18.99</span>
+                                <button class="btn btn-warning">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-navigation">
+                    <button class="menu-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="menu-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Contact Us</h2>
+                    <form id="contactForm" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="name" 
+                                    name="name" 
+                                    placeholder="Enter your full name" 
+                                    required 
+                                    minlength="2" 
+                                    maxlength="50"
+                                >
+                                <div class="invalid-feedback">
+                                    Please enter a valid name (2-50 characters).
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input 
+                                    type="email" 
+                                    class="form-control" 
+                                    id="email" 
+                                    name="email" 
+                                    placeholder="Enter your email address" 
+                                    required 
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                >
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number (Optional)</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                <input 
+                                    type="tel" 
+                                    class="form-control" 
+                                    id="phone" 
+                                    name="phone" 
+                                    placeholder="Enter your phone number" 
+                                    pattern="[+]?[0-9]{10,14}"
+                                >
+                                <div class="invalid-feedback">
+                                    Please enter a valid phone number.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea 
+                                class="form-control" 
+                                id="message" 
+                                name="message" 
+                                rows="4" 
+                                placeholder="Type your message here" 
+                                required 
+                                minlength="10" 
+                                maxlength="500"
+                            ></textarea>
+                            <div class="invalid-feedback">
+                                Please enter a message (10-500 characters).
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input 
+                                type="checkbox" 
+                                class="form-check-input" 
+                                id="privacyCheck" 
+                                required
+                            >
+                            <label class="form-check-label" for="privacyCheck">
+                                I agree to the privacy policy and terms of service
+                            </label>
+                        </div>
+
+                        <button 
+                            type="submit" 
+                            class="btn btn-warning btn-lg w-100"
+                        >
+                            <i class="fas fa-paper-plane me-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="contact-info bg-light p-4 rounded">
+                        <h3 class="mb-4">Contact Information</h3>
+                        <div class="mb-3">
+                            <h5><i class="fas fa-phone text-warning me-2"></i>Phone</h5>
+                            <p class="text-muted">+62 123 456 789</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5><i class="fas fa-envelope text-warning me-2"></i>Email</h5>
+                            <p class="text-muted">contact@blandfriedrice.com</p>
+                        </div>
+                        <div>
+                            <h5><i class="fas fa-map-marker-alt text-warning me-2"></i>Address</h5>
+                            <p class="text-muted">
+                                Jl. Example Street, 
+                                Jakarta, Indonesia
+                            </p>
+                        </div>
+                        <div class="mt-4">
+                            <h5>Business Hours</h5>
+                            <p class="text-muted">
+                                Monday - Sunday: 11:00 AM - 10:00 PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <div class="social-links mb-3">
+                <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Bland  Fried Rice. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+    <script src="main.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+        
+            form.addEventListener('submit', function(event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        
+            // Optional: Reset validation on input
+            form.querySelectorAll('input, textarea').forEach(input => {
+                input.addEventListener('input', function() {
+                    this.classList.remove('is-invalid');
+                });
+            });
+        });
+        </script>
+</body>
+</html>
